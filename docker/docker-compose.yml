@@ -1,12 +1,10 @@
 version: '3'
 
 services:
-
   todoback:
     image: todobackend
     ports:
       - 3001:3001
-
 
   todofront:
     image: todofrontend
